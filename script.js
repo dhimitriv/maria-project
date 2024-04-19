@@ -9,8 +9,6 @@ const mobileMenu = () => {
   body.classList.toggle("active");
 };
 
-console.log("Hello");
-
 menu.addEventListener("click", mobileMenu);
 
 gsap.registerPlugin(ScrollTrigger);
